@@ -1,0 +1,107 @@
+.todos-bg-container {
+  background-color:black;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height:100%;
+
+}
+.todo_app-container{
+  background-color: black;
+  width:50vw;
+  height:100vh;
+  margin:40px;
+  padding:20px;
+  border-radius: 10px;
+  border: 2px solid cyan;
+
+}
+.todos-heading {
+  text-align: center;
+  font-family: mv boli;
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffc8a2;
+
+}
+
+.todos-heading:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.todo-user-input {
+  background-color: white;
+  height:30px;
+  width:30vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid cyan;
+  box-shadow: 5px 5px 20px cyan;
+}
+
+
+
+
+
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  background-color: black;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid cyan;
+  box-shadow: 3px 3px 20px cyan;
+
+cursor: pointer;
+
+  position: relative;
+}
+
+
+.edit-icon {
+
+  margin-left: 350px;
+  margin-right:30px;
+}
+
+.delete-icon {
+
+  color: red;
+  margin-right:30px;
+}
+
+
+
